@@ -1,0 +1,561 @@
+.funny-container a{text-decoration:none;}
+.funny-container .txt-rt{text-align:right;}/* text align right */
+.funny-container .txt-lt{text-align:left;}/* text align left */
+.funny-container .txt-center{text-align:center;}/* text align center */
+.funny-container .float-rt{float:right;}/* float right */
+.funny-container .float-lt{float:left;}/* float left */
+.funny-container .clear{clear:both;}/* clear float */
+.funny-container .pos-relative{position:relative;}/* Position Relative */
+.funny-container .pos-absolute{position:absolute;}/* Position Absolute */
+.funny-container .vertical-base{	vertical-align:baseline;}/* vertical align baseline */
+.funny-container .vertical-top{	vertical-align:top;}/* vertical align top */
+.funny-container .underline{	padding-bottom:5px;	border-bottom: 1px solid #eee; margin:0 0 20px 0;}/* Add 5px bottom padding and a underline */
+.funny-container nav.vertical ul li{	display:block;}/* vertical menu */
+.funny-container nav.horizontal ul li{	display: inline-block;}/* horizontal menu */
+.funny-container img{max-width:100%;}
+/*img[width],img[height]{width:auto;height:auto;} wordpress hack to reset the attributes (while making responsive) */
+/*-- Reset Code --*/
+
+/*-- Index-Page-Styling --*/
+
+.funny-container .clear {
+    clear: both;
+}
+
+.funny-container ul{
+    margin:0;
+    padding:0;
+}
+.funny-container label{
+    margin:0;
+}
+.funny-container a:focus, a:hover {
+    text-decoration: none;
+    outline: none;
+}
+.funny-container img {
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+.funny-container h1 {
+    font-size: 40px;
+    font-weight: 600;
+    text-align: center;
+    color: #FFF;
+    margin: 48px 0;
+}
+
+.funny-container  {
+    width: 36%;
+    margin: 0 auto;
+}
+.funny-container .tabs {
+    background-color: #5bc3b9;
+    padding: 1.5em;
+    min-height: 482px;
+}
+.funny-container .tab-left {
+    width: 36%;
+    float: left;
+}
+.funny-container .tab-right {
+    float: left;
+    width: 64%;
+    background-color: #EEE;
+}
+.funny-container .tab{
+    clear:both;
+    padding-top: 30px;
+}
+.funny-container  .tab_box{
+    background:#fd926d;
+    padding: 2px;
+}
+.funny-container .top1{
+    margin-top: 2%;
+}
+.funny-container .resp-tabs-list {
+    text-align:center;
+}
+.funny-container .resp-tab-item {
+    color: #ffffff;
+    cursor: pointer;
+    display: block;
+    outline: none;
+    padding: 15px;
+    text-align:left;
+    -webkit-transition: all 0.3s ease-out;
+    -moz-transition: all 0.3s ease-out;
+    -ms-transition: all 0.3s ease-out;
+    -o-transition: all 0.3s ease-out;
+    transition: all 0.3s ease-out;
+}
+.funny-container .resp-tab-active {
+    position: relative;
+    background: #ffb900;
+    color: #ffffff;
+}
+.funny-container .resp-tab-active:before {
+    content: '';
+    border-top: 15px solid rgba(255, 185, 0, 0);
+    border-bottom: 15px solid rgba(255, 185, 0, 0);
+    border-right: 15px solid #001543;
+    position: absolute;
+    top: 18%;
+    right: 0%;
+    opacity: 0.8;
+}
+.funny-container .resp-tabs-container {
+    clear: left;
+}
+
+.funny-container .resp-tab-content {
+    display: none;
+}
+
+.funny-container h2.resp-accordion {
+    cursor: pointer;
+    display: none;
+}
+.funny-container ul.w3agile {
+    float: left;
+}
+.funny-container .resp-content-active, .resp-accordion-active {
+    display: block;
+}
+
+.funny-container .tab-content1 img {
+    width: 100%;
+}
+.funny-container .tab-content1 h3 {
+    font-size: 20px;
+    font-weight: 600;
+    color: #00BCD4;
+    margin-bottom: 10px;
+    margin-left: 10px;
+}
+.funny-container .tab-content1 h4 {
+    font-size: 15px;
+    color: #636363;
+    margin-left: 10px;
+}
+
+/*-- Hover-Styles --*/
+.funny-container .cbp-ig-grid {
+    list-style: none;
+    margin: 0;
+    text-align: center;
+}
+.funny-container .cbp-ig-grid img {
+    width: 60%;
+    margin: 0 auto;
+}
+.funny-container .cbp-ig-grid:before,
+.funny-container .cbp-ig-grid:after {
+    content: " ";
+    display: table;
+}
+.funny-container .cbp-ig-grid:after {
+    clear: both;
+}
+.funny-container .cbp-ig-grid li {
+    width: 33.3%;
+    float: left;
+    height: 165px;
+    text-align: center;
+    border-top: 1px solid #ddd;
+}
+.funny-container .cbp-ig-grid li:nth-child(-n+3){
+    border-top: none;
+}
+.funny-container .cbp-ig-grid li:nth-child(3n-1),
+.funny-container .cbp-ig-grid li:nth-child(3n-2) {
+    box-shadow: 1px 0 0 #ddd;
+}
+.funny-container .cbp-ig-grid li > a {
+    display: block;
+    height: 100%;
+    color: #47a3da;
+    -webkit-transition: background 0.2s;
+    -moz-transition: background 0.2s;
+    transition: background 0.2s;
+}
+.funny-container .cbp-ig-icon {
+    display: block;
+    -webkit-transition: -webkit-transform 0.2s;
+    transition: -moz-transform 0.2s;
+    transition: transform 0.2s;
+}
+.funny-container .cbp-ig-icon:before {
+    font-family: 'anyoldicon';
+    speak: none;
+    font-style: normal;
+    font-weight: normal;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+    -webkit-font-smoothing: antialiased;
+}
+.funny-container .cbp-ig-icon-facebook:before {
+    content: "\e000";
+}
+.funny-container .cbp-ig-icon-twitter:before {
+    content: "\e001";
+}
+.funny-container .cbp-ig-icon-gplus:before {
+    content: "\e002";
+}
+.funny-container .cbp-ig-icon-pinterest:before {
+    content: "\e003";
+}
+.funny-container .cbp-ig-icon-tumblr:before {
+    content: "\e004";
+}
+.funny-container .cbp-ig-icon-linkedin:before {
+    content: "\e007";
+}
+.funny-container .cbp-ig-grid .cbp-ig-title {
+    margin: 30px 0 10px 0;
+    padding: 30px 0 0 0;
+    font-size: 16px;
+    position: relative;
+    -webkit-transition: -webkit-transform 0.2s;
+    -moz-transition: -moz-transform 0.2s;
+    transition: transform 0.2s;
+}
+.funny-container .cbp-ig-grid:hover {
+    font-weight: 600;
+}
+.funny-container .cbp-ig-grid .cbp-ig-title:before {
+    content: '';
+    position: absolute;
+    background: #47a3da;
+    width: 115px;
+    height: 5px;
+    top: 0px;
+    left: 70%;
+    margin: 10px 0 0 -80px;
+    -webkit-transition: margin-top 0.2s;
+    -moz-transition: margin-top 0.2s;
+    transition: margin-top 0.2s;
+}
+/*-- //Hover-Styles --*/
+
+.funny-container .cbp-ig-grid li > a:hover {
+    background: #47a3da;
+}
+
+.funny-container .cbp-ig-grid li > a:hover .cbp-ig-icon {
+    -webkit-transform: translateY(10px);
+    -moz-transform: translateY(10px);
+    -ms-transform: translateY(10px);
+    transform: translateY(10px);
+}
+
+.funny-container .cbp-ig-grid li > a:hover .cbp-ig-icon:before,
+.funny-container .cbp-ig-grid li > a:hover .cbp-ig-title {
+    color: #fff;
+}
+
+.funny-container .cbp-ig-grid li > a:hover .cbp-ig-title {
+    -webkit-transform: translateY(-30px);
+    -moz-transform: translateY(-30px);
+    -ms-transform: translateY(-30px);
+    transform: translateY(-30px);
+}
+
+.funny-container .cbp-ig-grid li > a:hover .cbp-ig-title:before {
+    background: #fff;
+    margin-top: 80px;
+}
+
+.funny-container .tab-content4 h3 {
+    text-align: center;
+    margin: 20px 0;
+    font-size: 25px;
+    font-weight: 600;
+    color: #F44336;
+}
+.funny-container .tab-content4 p {
+    padding: 0 30px;
+    line-height: 25px;
+    font-size: 14px;
+    color: #636363;
+}
+.funny-container .tab-content4 span {
+    font-size: 20px;
+    float: right;
+    margin: 25px 20px 0 0;
+    color: #00BCD4;
+}
+
+/*-- Index-Page-Styling --*/
+.funny-container input.name {
+    width: 92%;
+    padding: 12px 10px 12px 12px;
+    border: none;
+    outline: none;
+    border-radius: 3px;
+    font-size: 15px;
+    letter-spacing: 1px;
+    margin-bottom: 20px;
+}
+.funny-container video {
+    width: 92%;
+}
+
+.funny-container ul.w3agile li input[type="checkbox"] {
+    display: none;
+}
+.funny-container ul.w3agile li input[type="checkbox"]+label {
+    position: relative;
+    padding-left: 25px;
+    border: #F0F8FF;
+    color: #FFFFFF;
+    display: inline-block;
+    font-size: 14px;
+    letter-spacing:1px;
+}
+.funny-container ul.w3agile li input[type="checkbox"]+label span:first-child {
+    width: 13px;
+    height: 13px;
+    display: inline-block;
+    border: 1px solid #FFFFFF;
+    position: absolute;
+    top: 1px;
+    left: 4px;
+    bottom: 4px;
+}
+.funny-container ul.w3agile li input[type="checkbox"]:checked+label span:first-child:before {
+    content: "";
+    background: url(../images/tick.png)no-repeat;
+    position: absolute;
+    left: 2px;
+    top: 2px;
+    font-size: 10px;
+    width: 10px;
+    height: 10px;
+}
+.funny-container label {
+    color: #e8e8e8;
+}
+.funny-container .w3l-sign-in input[type="button"] {
+    float: right;
+    background-color: #ffb900;
+    color: #fff;
+    padding: 7px 15px;
+    outline: none;
+    border: none;
+    font-size: 15px;
+    cursor: pointer;
+}
+.funny-container .w3l-sign-in input[type="button"]:hover {
+    background-color: #b18e32;
+}
+.funny-container .w3l-sign-in, .register.agileits, .agileinfo-recover, .wthree-subscribe, .agile-send-mail {
+    background: #001540;
+    padding: 1.5em;
+    border: 1px solid #001642;
+}
+input.done, input.no-thanks {
+    margin-left: 10%;
+    background-color: #b18e32 !important;
+}
+input.done:hover, input.no-thanks:hover {
+    background-color: #ffb900 !important;
+}
+
+.agile-send-mail  textarea {
+    width: 92%;
+    resize: none;
+    padding: 10px;
+    height: 110px;
+    font-size: 15px;
+    border: none;
+    outline: none;
+    border-radius: 3px;
+    letter-spacing: 1px;
+}
+input[type="button"] {
+    transition: 0.5s all;
+    webkit-transition: 0.5s all;
+    -moz-transition: 0.5s all;
+    -o-transition: 0.5s all;
+    -ms-transition: 0.5s all;
+}
+h3 {
+    color: #fff;
+    font-size: 30px;
+    text-align: center;
+    margin-bottom: 25px;
+}
+
+/*--- Responsive Code ---*/
+
+@media screen and (max-width: 1440px) {
+    .funny-container  {
+        width: 38%;
+    }
+}
+@media screen and (max-width: 1366px) {
+    .funny-container  {
+        width: 41%;
+    }
+}
+@media screen and (max-width: 1280px) {
+    .funny-container  {
+        width: 44%;
+    }
+}
+@media screen and (max-width: 1080px) {
+    .funny-container  {
+        width: 53%;
+    }
+}
+@media screen and (max-width: 1024px) {
+    .funny-container  {
+        width: 55%;
+    }
+}
+@media screen and (max-width: 991px) {
+    .funny-container  {
+        width: 57%;
+    }
+}
+@media screen and (max-width: 800px) {
+    .funny-container {
+        width: 70%;
+    }
+}
+@media screen and (max-width: 768px) {
+    .funny-container  {
+        width: 74%;
+    }
+}
+@media screen and (max-width: 736px) {
+    .funny-container  {
+        width: 76%;
+    }
+}
+@media screen and (max-width: 667px) {
+    .funny-container  {
+        width:85%;
+    }
+}
+@media screen and (max-width: 640px) {
+    .funny-container  {
+        width: 87%;
+    }
+    .funny-container h1 {
+        font-size: 34px;
+    }
+    .funny-container h3 {
+        font-size: 26px;
+    }
+}
+@media screen and (max-width: 600px) {
+    .funny-container  {
+        width: 93%;
+    }
+}
+@media screen and (max-width: 568px) {
+    .funny-container  {
+        width: 94%;
+    }
+    .funny-container input.name, .funny-container video {
+        width: 91%;
+    }
+}
+@media screen and (max-width: 480px) {
+    .funny-container  {
+        width: 94%;
+    }
+    .funny-container h1 {
+        font-size: 28px;
+        margin: 30px 0;
+    }
+    .funny-container input.name, .funny-container video {
+        width: 89%;
+    }
+    .funny-container .resp-tab-item {
+        font-size: 14px;
+    }
+    .funny-container .w3l-sign-in input[type="button"] {
+        margin-top: 20px;
+    }
+    .funny-container input.done, input.no-thanks {
+        margin-left: 2%;
+        background-color: #b18e32 !important;
+    }
+    .funny-container h3 {
+        font-size: 22px;
+    }
+    .funny-container .resp-tab-item {
+        padding: 12px;
+    }
+    .funny-container .resp-tab-active:before {
+        top: 16%;
+    }
+}
+@media screen and (max-width: 414px) {
+    .funny-container .container {
+        width: 94%;
+    }
+    .funny-container .tabs {
+        padding: 1em;
+    }
+    .funny-container .w3l-sign-in, .register.agileits, .agileinfo-recover, .wthree-subscribe, .agile-send-mail {
+        padding: 1em;
+    }
+    .funny-container .resp-tab-item {
+        font-size: 13px;
+    }
+    .funny-container input.name, .funny-container video {
+        width: 91%;
+        padding: 10px 10px 10px 10px;
+        font-size: 13px;
+    }
+    .funny-container ul.w3agile li input[type="checkbox"]+label {
+        font-size: 13px;
+    }
+    .funny-container .w3l-sign-in input[type="button"] {
+        font-size: 13px;
+    }
+    .funny-container h3 {
+        font-size: 20px;
+    }
+    .funny-container .tabs {
+        min-height: 394px;
+    }
+}
+@media screen and (max-width: 384px) {
+    .funny-container  {
+        width: 94%;
+    }
+    .funny-container .tab-left {
+        width: 100%;
+        float: left;
+    }
+    .funny-container .tab-right {
+        float: left;
+        width: 100%;
+        background-color: #EEE;
+        margin-top: 20px;
+    }
+    .funny-container .w3l-sign-in input[type="button"] {
+        margin-top: 0;
+    }
+    .funny-container .agile-send-mail textarea {
+        margin-bottom: 20px;
+    }
+}
+@media screen and (max-width: 320px) {
+    .funny-container  {
+        width: 90%;
+    }
+    .funny-container h1 {
+        font-size: 24px;
+        margin: 25px 0;
+    }
+}
