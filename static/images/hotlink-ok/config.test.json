@@ -1,6 +1,18 @@
 {
     "options": [
         {
+            "path": "https://cdn.trumanwl.com/static/images/hotlink-ok/buzhuangle.gif",
+            "text": "不装了我摊牌了",
+            "value": 43,
+            "sentences": [
+                "本来打算以普通人的身份跟你们相处",
+                "可换来的却是疏远",
+                "不装了",
+                "我是亿万富翁",
+                "我摊牌了"
+            ]
+        },
+        {
             "path": "https://cdn.trumanwl.com/static/images/hotlink-ok/wujiandao.gif",
             "text": "无间道名场面",
             "value": 45,
@@ -15,18 +27,6 @@
                 "那就是要我死",
                 "对不起，我是警察",
                 "谁知道"
-            ]
-        },
-        {
-            "path": "https://cdn.trumanwl.com/static/images/hotlink-ok/buzhuangle.gif",
-            "text": "不装了我摊牌了",
-            "value": 43,
-            "sentences": [
-                "本来打算以普通人的身份跟你们相处",
-                "可换来的却是疏远",
-                "不装了",
-                "我是亿万富翁",
-                "我摊牌了"
             ]
         },
         {
