@@ -2,6 +2,17 @@
     "options": [
         {
             "path": "https://cdn.trumanwl.com/static/images/hotlink-ok/buzhuangle.gif",
+            "text": "无间道天台",
+            "value": 45,
+            "sentences": [
+                "给我一个机会",
+                "怎么给你机会",
+                "我以前没得选择",
+                "现在我想做一个好人"
+            ]
+        },
+        {
+            "path": "https://cdn.trumanwl.com/static/images/hotlink-ok/buzhuangle.gif",
             "text": "不装了我摊牌了",
             "value": 43,
             "sentences": [
