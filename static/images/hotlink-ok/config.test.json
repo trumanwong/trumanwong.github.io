@@ -1,6 +1,60 @@
 {
     "options": [
         {
+            "path": "https://cdn.trumanwl.com/static/images/hotlink-ok/xianyu1.gif",
+            "text": "做人如果没梦想 跟咸鱼有什么分别",
+            "value": 46,
+            "sentences": [
+                "你就别做梦了",
+                "做人如果没梦想 那跟咸鱼有什么分别",
+                "你连鞋都没有 那不就是咸鱼一条？",
+                "还学人家讲理想？"
+            ]
+        },
+        {
+            "path": "https://cdn.trumanwl.com/static/images/hotlink-ok/yiyanweiding1.gif",
+            "text": "一言为定 双喜临门",
+            "value": 49,
+            "sentences": [
+                "教练过分了",
+                "王多鱼今天",
+                "必须留下",
+                "他要是走了",
+                "我也不干了",
+                "一言为定",
+                "双喜临门"
+            ]
+        },
+        {
+            "path": "https://cdn.trumanwl.com/static/images/hotlink-ok/yuhuatian1.gif",
+            "text": "雨化田",
+            "value": 48,
+            "sentences": [
+                "你问我西厂算什么东西",
+                "现在我就来告诉你",
+                "东厂破不了的案由我西厂来破",
+                "还有",
+                "你听好",
+                "东厂不敢杀的人我杀",
+                "东厂不敢管的事我管",
+                "一句话",
+                "东厂管得了的我要管",
+                "东厂管不了的我更要管",
+                "先斩后奏 皇权特许",
+                "这就是西厂",
+                "够不够清楚"
+            ]
+        },
+        {
+            "path": "https://cdn.trumanwl.com/static/images/hotlink-ok/xianyu1.gif",
+            "text": "做人如果没梦想 跟咸鱼有什么分别",
+            "value": 47,
+            "sentences": [
+                "我长这么大 没见过这么嚣张的人",
+                "哎... 今天你就见到了"
+            ]
+        },
+        {
             "path": "https://cdn.trumanwl.com/static/images/hotlink-ok/buzhuangle.gif",
             "text": "不装了我摊牌了",
             "value": 43,
