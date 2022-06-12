@@ -1,7 +1,7 @@
 {
     "options": [
         {
-            "path": "https://cdn.trumanwl.com/static/images/hotlink-ok/xianyu1.gif",
+            "path": "https://cdn.trumanwl.com/static/images/hotlink-ok/xianyu.gif",
             "text": "做人如果没梦想 跟咸鱼有什么分别",
             "value": 46,
             "sentences": [
@@ -12,7 +12,7 @@
             ]
         },
         {
-            "path": "https://cdn.trumanwl.com/static/images/hotlink-ok/yiyanweiding1.gif",
+            "path": "https://cdn.trumanwl.com/static/images/hotlink-ok/yiyanweiding.gif",
             "text": "一言为定 双喜临门",
             "value": 49,
             "sentences": [
@@ -26,7 +26,7 @@
             ]
         },
         {
-            "path": "https://cdn.trumanwl.com/static/images/hotlink-ok/yuhuatian1.gif",
+            "path": "https://cdn.trumanwl.com/static/images/hotlink-ok/yuhuatian.gif",
             "text": "雨化田",
             "value": 48,
             "sentences": [
@@ -46,8 +46,8 @@
             ]
         },
         {
-            "path": "https://cdn.trumanwl.com/static/images/hotlink-ok/xianyu1.gif",
-            "text": "做人如果没梦想 跟咸鱼有什么分别",
+            "path": "https://cdn.trumanwl.com/static/images/hotlink-ok/xiaozhang.gif",
+            "text": "我长这么大 没见过这么嚣张的人",
             "value": 47,
             "sentences": [
                 "我长这么大 没见过这么嚣张的人",
