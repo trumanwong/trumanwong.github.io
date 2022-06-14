@@ -1,6 +1,14 @@
 {
     "options": [
         {
+            "path": "https://cdn.trumanwl.com/static/images/hotlink-ok/zhanshuhouyang1.gif",
+            "text": "什么叫国际影星啊【战术后仰】",
+            "value": 50,
+            "sentences": [
+                "什么叫国际影星啊"
+            ]
+        },
+        {
             "path": "https://cdn.trumanwl.com/static/images/hotlink-ok/xianyu.gif",
             "text": "做人如果没梦想 跟咸鱼有什么分别",
             "value": 46,
